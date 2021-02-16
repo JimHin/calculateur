@@ -23,7 +23,7 @@ export default new Vuex.Store({
   },
   /**
    * Les trois calculs nécessaires pour obtenir le perimètre, l'aire et le volume
-   * On doit les déclarer dans mutations car ils change la valeur d'une propriété du state, d'où le nom de mutations pour ces méthodes
+   * On doit les déclarer dans mutations car ils changent la valeur d'une propriété du state, d'où le nom de mutations pour ces méthodes
    */
   mutations: {
     CALCUL_CIRCLE_PERIMETER(state){
