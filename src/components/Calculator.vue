@@ -7,7 +7,7 @@
       <p>{{ helpTextSuite }}</p>
       <input type="number" name="radius" id="radius"><br>
       <button @click="displayResult" class="mt-3">Calculez</button>
-      <div v-if="calculBool" class="mt-3"><!-- *** cette div contenant le tableau ne s'affichera que si calculBool est true *** -->
+      <div v-if="calculBool" class="mt-3"><!-- *** cette div contenant le tableau qui ne s'affichera que si calculBool est true *** -->
         <table class="table table-dark">
           <tbody>
             <tr>
