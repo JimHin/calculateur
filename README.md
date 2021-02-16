@@ -1,11 +1,11 @@
 # calculateur
 
-## Project setup
+## Installer le projet
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+### Compiler et démarrer le hot-reloads pour développer
 ```
 yarn serve
 ```
