@@ -10,20 +10,6 @@ yarn install
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-
-
 ### SOLUTION
 Regarder le fichier index.js dans le répertoire store
 Les commentaires vous détaillent les déclarations du datastore
