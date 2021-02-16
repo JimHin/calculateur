@@ -46,9 +46,9 @@ export default {
      * méthode displayResult qui appellera this.$store.dispatch('obtainResult') si un calcul est a réaliser
      */
     displayResult(){
-      let choice = document.getElementById('radius').value
+      let choice = document.getElementById('radius').value /** *** On capture la valeur du champs *** */
       this.$store.state.calculBool = true
-      if (choice > 0 ) {
+      if (choice > 0 ) {/** *** On la valeur de choice *** */
           this.$store.state.radius = choice
            this.$store.dispatch('obtainResult')
            this.$store.state.calculBool = true/** *** On passe calculBool à true pour informer la div contenant le tableau qu'on lui demande d'apparaître *** */
