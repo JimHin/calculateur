@@ -1,4 +1,4 @@
-# calculateur
+# calculateur avec Vue CLI et Vuex
 
 ## Installer le projet
 ```
